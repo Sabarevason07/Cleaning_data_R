@@ -49,3 +49,26 @@ This R script is designed to clean and transform employee data from a CSV file. 
 2. Modify the file path if necessary:
    ```r
    data <- read.csv("F:/Data/Employees.csv", stringsAsFactors = FALSE)
+3.Run the script using your preferred R IDE or the command line.
+## Output
+The cleaned and transformed data will be saved as:
+-bash
+-Copy
+-Edit
+-F:/cleaned_employees.csv
+-The output CSV file will include the following additional columns:
+- ` Tenure: Employee tenure in years`.
+- `Experience_Level: Categorized experience level (Beginner, Intermediate, Experienced, Expert)`.
+
+## Notes
+- Ensure the date columns (DOB and Joining_Date) are in the format YYYY-MM-DD.
+- The script ignores rows with missing Age or DOB values.
+- Invalid dates in Joining_Date will be removed.
+## License
+- This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+- `SABAREVASON D`
+-Feel free to reach out for any questions or improvements!
+## Acknowledgements
+-This script was developed to demonstrate data cleaning and transformation techniques using base R functionalities.
