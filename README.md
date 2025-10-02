@@ -1,4 +1,4 @@
-# Employee Data Cleaning and Transformation Script.
+# Employee Data Cleaning and Transformation Script
 
 This R script is designed to clean and transform employee data from a CSV file. It performs various data preprocessing tasks such as handling missing values, standardizing column formats, calculating employee tenure, and categorizing experience levels.
 
